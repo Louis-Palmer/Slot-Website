@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,6 @@ body {
   position: relative;
 }
 
-/* Example number in the top right */
 .Current_Balance {
   position: absolute;
   top: 10rem;
@@ -26,7 +25,6 @@ body {
   color: #333;
 }
 
-/* Container for the grid and controls */
 .container {
   display: flex;
   flex-direction: column;
@@ -34,7 +32,6 @@ body {
   gap: 20px;
 }
 
-/* 3x3 Image Grid */
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 100px);
@@ -59,7 +56,6 @@ body {
   object-fit: cover;
 }
 
-/* Example sentence styling */
 .Console_Output {
   font-size: 18px;
   text-align: center;
@@ -67,7 +63,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* Controls: Text Fields and Button */
 .controls {
   display: flex;
   align-items: center;

@@ -6,37 +6,38 @@
   <title>3x3 Grid Layout</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <!-- Example number in the top right -->
+    <!-- Balance number -->
   <div class="Current_Balance">
-    Current Balance Placeholde:£100
+    Current Balance Placeholder: £100
   </div>
 
+  <!-- Main Screen -->
   <div class="container">
-    <!-- 3x3 Image Grid -->
+    <!-- Contains all the images -->
     <div class="grid">
-      <div class="grid-item"><img src="placeholder.png" alt="Image 1"></div>
-      <div class="grid-item"><img src="placeholder.png" alt="Image 2"></div>
-      <div class="grid-item"><img src="placeholder.png" alt="Image 3"></div>
-      <div class="grid-item"><img src="placeholder.png" alt="Image 4"></div>
-      <div class="grid-item"><img src="placeholder.png" alt="Image 5"></div>
-      <div class="grid-item"><img src="placeholder.png" alt="Image 6"></div>
-      <div class="grid-item"><img src="placeholder.png" alt="Image 7"></div>
-      <div class="grid-item"><img src="placeholder.png" alt="Image 8"></div>
-      <div class="grid-item"><img src="placeholder.png" alt="Image 9"></div>
+      <div class="grid-item" id="IMG_1" ><img  src="placeholder.png" alt="Image 1"></div>
+      <div class="grid-item" id="IMG_2" ><img  src="placeholder.png" alt="Image 2"></div>
+      <div class="grid-item" id="IMG_3" ><img  src="placeholder.png" alt="Image 3"></div>
+      <div class="grid-item" id="IMG_4" ><img  src="placeholder.png" alt="Image 4"></div>
+      <div class="grid-item" id="IMG_5" ><img  src="placeholder.png" alt="Image 5"></div>
+      <div class="grid-item" id="IMG_6" ><img  src="placeholder.png" alt="Image 6"></div>
+      <div class="grid-item" id="IMG_7" ><img  src="placeholder.png" alt="Image 7"></div>
+      <div class="grid-item" id="IMG_8" ><img  src="placeholder.png" alt="Image 8"></div>
+      <div class="grid-item" id="IMG_9" ><img  src="placeholder.png" alt="Image 9"></div>
     </div>
 
-    <!-- Random example sentence above the text fields -->
+    <!-- Contains the scripts output lines -->
     <div class="Console_Output">
-      PlaceHolder Output
+      Placeholder Output
     </div>
 
     <!-- Text Fields and Button -->
     <div class="controls">
-      <input type="text" id="Betting_Amount" placeholder="Betting Amount">
-      <input type="text" id="Number_Of_Lines" placeholder="Number of Lines">
-      <button id="submit-button">Submit</button>
+      <input type="number" id="Betting_Amount" placeholder="Betting Amount" />
+      <input type="number" id="Number_Of_Lines" placeholder="Number of Lines" />
+      <button id="Spin_Button">Spin</button>
+      <button id="Loan_Money">Borrow Money From a Friend</button>
     </div>
   </div>
   <script src="project.js"></script>
